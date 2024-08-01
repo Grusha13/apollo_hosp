@@ -863,28 +863,28 @@ header{
 
         .img-2{
             top: 70px;
-            left: 30%;
+            left: 25%;
         }
 
         
         .img-3{
             top: 140px;
-            right: 30%;
+            right: 25%;
         }
 
         .img-4{
             top: 220px;
-            left: 30%;
+            left: 25%;
         }
 
         .img-5{
             top: 290px;
-            right: 30%;
+            right: 25%;
         }
 
         .img-6{
             top: 380px;
-            left: 30%;
+            left: 25%;
         }
 
         .desc-1{
@@ -895,31 +895,114 @@ header{
 
         .desc-2{
             top: 100px;
-            left: 18%;
+            left: 6%;
             text-align: right;
         }
 
         .desc-3{
             top: 180px;
-            right: 18%;
+            right: 6%;
             text-align: left;
         }
 
         .desc-4{
             top: 250px;
-            left: 16%;
+            left: 6%;
             text-align: right;
         }
 
         .desc-5{
             top: 310px;
-            right: 18%;
+            right: 6%;
             text-align: left;
         }
 
         .desc-6{
             top: 410px;
-            left: 18%;
+            left: 6%;
+            text-align: right;
+        }
+        }
+    }
+
+    @media screen and (max-width: 520px) {
+        .process-wrapper{
+            .image-wrapper{
+                height:80px;
+                width: 80px;
+            }
+
+            
+       .img-1{
+            top: -5px;
+             right: 13%;
+        }
+
+        .img-2{
+            top: 90px;
+            left: 10%;
+        }
+
+        
+        .img-3{
+            top: 160px;
+            right: 12%;
+        }
+
+        .img-4{
+            top: 240px;
+            left: 10%;
+        }
+
+        .img-5{
+            top: 310px;
+            right: 12%;
+        }
+
+        .img-6{
+            top: 390px;
+            left: 10%;
+        }
+
+        .desc{
+            p{
+                font-size: 15px;
+                text-align: center;
+            }
+        }
+
+        .desc-1{
+            top: 90px;
+            right: 6%;
+            text-align: left;
+        }
+
+        .desc-2{
+            top: 170px;
+            left: 0;
+        }
+
+        .desc-3{
+            top: 240px;
+            right: 6%;
+            text-align: left;
+        }
+
+        .desc-4{
+            top: 320px;
+            left: 6%;
+            text-align: right;
+        }
+
+        .desc-5{
+            top: 400px;
+            right: 6%;
+            text-align: left;
+        }
+
+        .desc-6{
+            top: 480px;
+            left: 7%;
             text-align: right;
         }
         }
